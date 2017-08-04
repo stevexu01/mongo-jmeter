@@ -1,6 +1,5 @@
-package com.bell.arc.mongotest.tdragg.mail.ca.on.mgs.ocms.test;
+package com.bell.arc.mail;
 
-import com.bell.arc.mongotest.tdragg.mail.ca.on.mgs.ocms.test.utl.SecSendEmail;
 import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;

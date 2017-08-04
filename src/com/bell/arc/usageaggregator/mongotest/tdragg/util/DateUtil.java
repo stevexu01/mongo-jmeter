@@ -1,4 +1,4 @@
-package com.bell.arc.mongotest.tdragg.util;
+package com.bell.arc.usageaggregator.mongotest.tdragg.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

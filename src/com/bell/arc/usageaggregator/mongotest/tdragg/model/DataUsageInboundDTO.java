@@ -1,4 +1,4 @@
-package com.bell.arc.mongotest.tdragg.model;
+package com.bell.arc.usageaggregator.mongotest.tdragg.model;
 
 /**
  * Created by maxchlam on 7/26/17.

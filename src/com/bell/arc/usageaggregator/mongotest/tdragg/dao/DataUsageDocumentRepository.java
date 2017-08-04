@@ -1,9 +1,10 @@
-package com.bell.arc.mongotest.tdragg.dao;
+package com.bell.arc.usageaggregator.mongotest.tdragg.dao;
 
-import com.bell.arc.mongotest.tdragg.model.DataUsageDocument;
 import java.util.List;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
+
+import com.bell.arc.usageaggregator.mongotest.tdragg.model.DataUsageDocument;
 
 
 public interface DataUsageDocumentRepository extends MongoRepository<DataUsageDocument, Long> {

@@ -1,4 +1,4 @@
-package com.bell.arc.mongotest.tdragg.mail.ca.on.mgs.ocms.test.utl;
+package com.bell.arc.mail;
 
 import java.io.File;
 import java.util.Properties;

@@ -1,10 +1,14 @@
-package com.bell.arc.mongotest.tdragg.model;
+package com.bell.arc.usageaggregator.mongotest.tdragg.model;
 
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
 
-
+@JsonAutoDetect(fieldVisibility=JsonAutoDetect.Visibility.ANY, getterVisibility=JsonAutoDetect.Visibility.NONE,
+    setterVisibility=JsonAutoDetect.Visibility.NONE, creatorVisibility= JsonAutoDetect.Visibility.NONE)
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class DataUsageDTO {
 
     private String xCorrelationId;
@@ -25,12 +29,12 @@ public class DataUsageDTO {
     @Override
     public String toString() {
         return "DataUsageDTO{" +
-                "xCorrelationId='" + xCorrelationId + '\'' +
-                ", triggerEventTimestamp=" + triggerEventTimestamp +
-                ", ban=" + ban +
-                ", banLvlCost=" + banLvlCost +
-                ", banLvlCostRounded=" + banLvlCostRounded +
-                '}';
+            "xCorrelationId='" + xCorrelationId + '\'' +
+            ", triggerEventTimestamp=" + triggerEventTimestamp +
+            ", ban=" + ban +
+            ", banLvlCost=" + banLvlCost +
+            ", banLvlCostRounded=" + banLvlCostRounded +
+            '}';
     }
 
     public DataUsageDTO(String xCorrelationId, Long triggerEventTimestamp, Long ban, List<Subscriber> subscribers) {

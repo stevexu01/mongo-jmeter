@@ -1,12 +1,10 @@
-package com.bell.arc.mongotest.tdragg.dao;
+package com.bell.arc.usageaggregator.mongotest.tdragg.dao;
 
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.group;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.match;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.newAggregation;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.project;
 
-import com.bell.arc.mongotest.tdragg.model.AggregatedSubscriberUsageDTO;
-import com.bell.arc.mongotest.tdragg.model.DataUsageDocument;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -14,6 +12,9 @@ import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.stereotype.Repository;
+
+import com.bell.arc.usageaggregator.mongotest.tdragg.model.AggregatedSubscriberUsageDTO;
+import com.bell.arc.usageaggregator.mongotest.tdragg.model.DataUsageDocument;
 
 //import com.bell.arc.mongo.tdragg.util.DateUtil;
 

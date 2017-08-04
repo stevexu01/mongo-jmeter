@@ -31,5 +31,8 @@
 	<classpathentry kind="lib" path="lib/spring-data-mongodb-1.10.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-expression-4.3.10.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-tx-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.0.pr4.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.9.0.pr4.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.9.0.pr4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
