@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_components.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_core.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_ftp.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_functions.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_http.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_java.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_jms.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_junit.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_ldap.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_mail.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_mongodb.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_native.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_tcp.jar"/>
+	<classpathentry kind="lib" path="lib/bson-3.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/mongodb-driver-3.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/mongodb-driver-core-3.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-data-mongodb-1.5.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-data-commons-1.13.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-data-mongodb-1.10.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-4.3.10.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

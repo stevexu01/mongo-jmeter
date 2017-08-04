@@ -1,0 +1,7 @@
+target/
+bin/
+classes/
+*.class
+*.jar
+*lib/
+*.jar.*

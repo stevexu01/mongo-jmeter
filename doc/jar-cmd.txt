@@ -1,0 +1,12 @@
+
+## not working:
+C:\_dev\temp\test\mongoload>jar -cfm mongoload.jar META-INF\MANIFEST.MF -C out\production\mongoload . -C lib .
+
+## worked:
+1. project -> export -> java -> Runnable jar -> 
+	copy required libs to a sub-folder next to the jar
+2. copy generated jar (mongoload.jar) and the lib sub-folfer (mongoload_lob) to JMeter ext folder (c:\_dev\tools\apache-jmeter-3.2\lib\ext\)
+
+3. In JMeter, under a created Thread Group -> Add Sampler -> Java Request -> Select class com.bell.arc.mongotest.tdragg.TDRAggregatorTest
+	enter parameters, then Run.
+	
