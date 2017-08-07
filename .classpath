@@ -34,5 +34,9 @@
 	<classpathentry kind="lib" path="lib/jackson-annotations-2.9.0.pr4.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-core-2.9.0.pr4.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-databind-2.9.0.pr4.jar"/>
+	<classpathentry kind="lib" path="lib/spring-rabbit-1.7.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-amqp-1.7.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/amqp-client-4.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-retry-1.2.0.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

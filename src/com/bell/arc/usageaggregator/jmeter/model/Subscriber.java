@@ -1,4 +1,4 @@
-package com.bell.arc.usageaggregator.mongotest.tdragg.model;//package com.bell.arc.usageaggregator.model;
+package com.bell.arc.usageaggregator.jmeter.model;//package com.bell.arc.usageaggregator.model;
 //
 ///**
 // * Created by vijvinee on 7/25/2017.

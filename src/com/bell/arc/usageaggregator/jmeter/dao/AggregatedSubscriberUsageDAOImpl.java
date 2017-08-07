@@ -1,4 +1,4 @@
-package com.bell.arc.usageaggregator.mongotest.tdragg.dao;
+package com.bell.arc.usageaggregator.jmeter.dao;
 
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.group;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.match;
@@ -13,8 +13,8 @@ import org.springframework.data.mongodb.core.aggregation.AggregationResults;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.stereotype.Repository;
 
-import com.bell.arc.usageaggregator.mongotest.tdragg.model.AggregatedSubscriberUsageDTO;
-import com.bell.arc.usageaggregator.mongotest.tdragg.model.DataUsageDocument;
+import com.bell.arc.usageaggregator.jmeter.model.AggregatedSubscriberUsageDTO;
+import com.bell.arc.usageaggregator.jmeter.model.DataUsageDocument;
 
 //import com.bell.arc.mongo.tdragg.util.DateUtil;
 

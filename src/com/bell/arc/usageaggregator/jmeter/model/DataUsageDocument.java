@@ -1,4 +1,4 @@
-package com.bell.arc.usageaggregator.mongotest.tdragg.model;
+package com.bell.arc.usageaggregator.jmeter.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 

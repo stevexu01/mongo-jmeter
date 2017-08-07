@@ -1,13 +1,13 @@
-package com.bell.arc.usageaggregator.mongotest.tdragg;
+package com.bell.arc.usageaggregator.jmeter;
 
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.group;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.match;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.newAggregation;
 import static org.springframework.data.mongodb.core.aggregation.Aggregation.project;
 
-import com.bell.arc.usageaggregator.mongotest.tdragg.model.AggregatedSubscriberUsageDTO;
-import com.bell.arc.usageaggregator.mongotest.tdragg.model.DataUsageDocument;
-import com.bell.arc.usageaggregator.mongotest.tdragg.util.DateUtil;
+import com.bell.arc.usageaggregator.jmeter.model.AggregatedSubscriberUsageDTO;
+import com.bell.arc.usageaggregator.jmeter.model.DataUsageDocument;
+import com.bell.arc.usageaggregator.jmeter.util.DateUtil;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
 import com.mongodb.ServerAddress;
