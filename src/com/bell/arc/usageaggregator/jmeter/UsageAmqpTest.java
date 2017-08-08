@@ -40,7 +40,7 @@ public class UsageAmqpTest extends AbstractJavaSamplerClient implements Serializ
 		defaultParameters.addArgument(JMETER_PARAM_RABBIT_EXCHANGE, "arc.usage.ingest");
 		defaultParameters.addArgument(JMETER_PARAM_RABBIT_BINDKEY, "usageAggregator");
 		
-		String tdrMessage = "{ \"xCorrelationId\":  \"a3d5b2489ec53943862ab93b62535485baba0d6f\",  \"triggerEventTimestamp\": 20170725150001,  \"ban\": 527646843}";
+		String tdrMessage = "{ \"xCorrelationId\":  \"a3d5b2489ec53943862ab93b62535485baba0d6f\",  \"triggerEventTimestamp\": 20170725150001,  \"ban\": 123456789}";
 		defaultParameters.addArgument(JMETER_PARAM_RABBIT_MESSAGE, tdrMessage);
 		
 		return defaultParameters;
@@ -56,21 +56,21 @@ public class UsageAmqpTest extends AbstractJavaSamplerClient implements Serializ
 			getNewLogger().info("BAN passed from context: " + varBan);
 		}
 		
-		if(!validateMessage(textMessage) && varBan.isEmpty()){
-			throw new RuntimeException("Message entered is invalid and there's no BAN passed from JMeter.");
-		}
-		
-		//Override message entered or default message
-		if(!varBan.isEmpty()){
-			try {
-				final ObjectMapper mapper = new ObjectMapper();
-				Map<String, Object> textMessageRebuilt = mapper.readValue(textMessage, Map.class);
-				textMessageRebuilt.put("ban", varBan);
-				textMessage = mapper.writeValueAsString(textMessageRebuilt);
-			} catch (IOException e) {
-				getNewLogger().error(e.toString());
-			}
-		}
+//		if(!validateMessage(textMessage) && varBan.isEmpty()){
+//			throw new RuntimeException("Message entered is invalid and there's no BAN passed from JMeter.");
+//		}
+//		
+//		//Override message entered or default message
+//		if(!varBan.isEmpty()){
+//			try {
+//				final ObjectMapper mapper = new ObjectMapper();
+//				Map<String, Object> textMessageRebuilt = mapper.readValue(textMessage, Map.class);
+//				textMessageRebuilt.put("ban", varBan);
+//				textMessage = mapper.writeValueAsString(textMessageRebuilt);
+//			} catch (IOException e) {
+//				getNewLogger().error(e.toString());
+//			}
+//		}
 		
 		
 		org.springframework.amqp.core.Message message = org.springframework.amqp.core.MessageBuilder

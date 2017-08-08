@@ -81,20 +81,20 @@ public class TDRAggregatorTest extends AbstractJavaSamplerClient implements Seri
 			getNewLogger().info("BAN passed from context: " + varBan);
 		}
 
-		if (!StringUtils.isEmpty(varBan)) {
-			ban = varBan;
-		}
-
-		if (getNewLogger().isWarnEnabled()) {
-			if (StringUtils.isEmpty(ban)) {
-				getNewLogger().warn(">> BAN must not be empty.");
-				return sampleResult;
-			}
-			if (StringUtils.isEmpty(usageType)) {
-				getNewLogger().warn(">> Usage type must not be empty.");
-				return sampleResult;
-			}
-		}
+//		if (!StringUtils.isEmpty(varBan)) {
+//			ban = varBan;
+//		}
+//
+//		if (getNewLogger().isWarnEnabled()) {
+//			if (StringUtils.isEmpty(ban)) {
+//				getNewLogger().warn(">> BAN must not be empty.");
+//				return sampleResult;
+//			}
+//			if (StringUtils.isEmpty(usageType)) {
+//				getNewLogger().warn(">> Usage type must not be empty.");
+//				return sampleResult;
+//			}
+//		}
 
 		sampleResult.sampleStart();
 
